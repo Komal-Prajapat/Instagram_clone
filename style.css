@@ -1,0 +1,151 @@
+*{
+    
+    padding: 0;
+    margin: 0px;
+    /* color: white; */
+}
+h2{
+    font-family:Bradley Hand ITC ;
+}
+body{
+    background: #000;
+    color: white;
+  
+}
+.menu{
+    justify-content: left;
+    justify-items: left;
+}
+.insta_clone{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+.left_sidebar{
+     width: 15%; 
+    background: #000;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    height: 100vh;
+    padding: 1rem;
+
+}
+
+.fa-solid {
+    margin-right: 5px;
+    
+}
+.items{
+    padding: 0.5rem;
+    margin-left: 2px;
+    font-size: 20px;
+    display: flex;
+     /* justify-content: center;
+    align-items: center; */
+}
+
+/* ****story*** */
+.content{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.inst_story img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px dotted yellow;
+    
+    
+}
+.inst_story p {
+
+    text-align: center;
+}
+
+.inst_story{
+    display: flex;
+    overflow: hidden;
+  gap: 1rem;
+   
+    
+}
+.inst_story::-webkit-scrollbar{
+    display: none;
+
+}
+
+/* .vertical-line{ */
+    .vertical-line {
+        border-left: 1px solid #f9f9f9; /* Adjust color and thickness as needed */
+        height: 100vh; /* Adjust height as needed */
+        margin: 0; /* Remove default margin */
+      }
+
+/* ******** post ******* */
+.user_post{
+    margin-left: 100px;
+      padding: 40px;
+   padding-top: 20px;
+  
+}
+.user_post img{
+    margin-top: 10px;
+}
+.user_post p {
+    margin-left: 10px;
+}
+.account{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.dp{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.post img{
+ 
+    width: 300px;
+    height: 300px;
+}
+.like{
+margin-left: 10px;
+}
+.fa-regular{
+    margin-left: 20px;
+}
+.fa-heart:hover,
+.fa-heart:active {
+    color: red;
+    /* background: red; */
+    /* border: 2px solid black; */
+}
+
+
+/* *****Right slide **** */
+
+.follow_link{
+    text-align: right;
+}
+.suggestion{
+    width: 20%;
+    padding: 30px;
+   
+
+}
+.suggestion_followers{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 10px;
+    margin-top: 10px;
+}
